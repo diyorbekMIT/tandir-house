@@ -9,10 +9,12 @@ import { OrdersPage } from './screens/ordersPage';
 import { UserPage } from './screens/userPage';
 import { HomeNavbar } from './components/navbar/homeNavbar';
 import { OtherNavbar } from './components/navbar/otherNavbar';
-import { Footer } from './components/footer';
+
 
 import "../css/navbar.css";
+import "../css/footer.css";
 import { HelpPage } from './screens/helpPage';
+import Footer from './components/footer';
 
 function App() {
   const location = useLocation();
