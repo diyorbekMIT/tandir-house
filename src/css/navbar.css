@@ -53,16 +53,16 @@
 }
 
 .home-navbar  .detail .head-main-txt {
-    width: 550px;
+    margin-right: 100px;
+    width: 450px;
     height: 150px;
     color: #ffffff;
     font-family: "Roboto Serif";
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
     letter-spacing: -0.75px;
-    
 }
 
 
