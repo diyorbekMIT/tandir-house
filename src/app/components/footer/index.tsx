@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Container, Stack } from "@mui/material";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 const Footers = styled.div`
   width: 100%;
@@ -19,9 +20,9 @@ export default function Footer() {
       <Container >
         <Stack flexDirection={"row"} sx={{ mt: "94px" }}>
           <Stack flexDirection={"column"} style={{ width: "340px" }}>
-            <Box>
-              <img width={"100px"} src={"/icons/burak.svg"} />
-            </Box>
+            <NavLink to={"/"}>
+              <img width={"100px"}  src="/icons/tandir.jpeg"  />
+            </NavLink>
             <Box className={"foot-desc-txt"}>
               Focusing on the gourmet Turkish breakfast as well as the youth
               society, CZN Burak Gurme aims to bring Turkish cuisine back. CZN

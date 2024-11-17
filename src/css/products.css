@@ -1,0 +1,44 @@
+.products-page .products .address {
+  margin-bottom: 60px;
+  height: auto;
+  
+}
+
+.products-page .products .address .address-area {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Ensures text content inside .title is centered */
+  }
+  
+  .products-page .products .address .title {
+    font-family: "Dancing Script";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 0; /* Removes unnecessary spacing */
+  }
+
+  
+
+  .homepage .events-frame .events-main .events-text {
+    width: auto;
+    height: 70px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homepage .events-frame .category-title {
+    font-family: "Dancing Script";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    padding-top: 20px;
+  }
+  

@@ -13,6 +13,7 @@ import { OtherNavbar } from './components/navbar/otherNavbar';
 
 import "../css/navbar.css";
 import "../css/footer.css";
+import '../css/products.css';
 import { HelpPage } from './screens/helpPage';
 import Footer from './components/footer';
 
