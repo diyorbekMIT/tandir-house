@@ -16,7 +16,8 @@ import '../css/products.css';
 
 import { HelpPage } from './screens/helpPage';
 import Footer from './components/footer';
-import { OrdersPage } from './screens/ordersPage';
+import OrdersPage from './screens/ordersPage';
+// import { OrdersPage } from './screens/ordersPage';
 
 
 function App() {
