@@ -5,7 +5,7 @@ import { RippleBadge } from './MaterialTheme/styled';
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import { HomePage } from './screens/homePage';
 import { ProductsPage } from './screens/productsPage';
-import { UserPage } from './screens/userPage';
+import  UserPage  from './screens/userPage';
 import { HomeNavbar } from './components/navbar/homeNavbar';
 import { OtherNavbar } from './components/navbar/otherNavbar';
 
@@ -14,7 +14,7 @@ import "../css/navbar.css";
 import "../css/footer.css";
 import '../css/products.css';
 
-import { HelpPage } from './screens/helpPage';
+import  HelpPage  from './screens/helpPage';
 import Footer from './components/footer';
 import OrdersPage from './screens/ordersPage';
 // import { OrdersPage } from './screens/ordersPage';
