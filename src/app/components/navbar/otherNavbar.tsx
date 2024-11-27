@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import Basket from "./Basket";
 
 export function OtherNavbar() {
-  const authMember = null; // Replace with actual authentication logic
+  const authMember = true; // Replace with actual authentication logic
 
   return (
     <div className="other-navbar">
